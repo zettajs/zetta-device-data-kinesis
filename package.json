@@ -1,0 +1,17 @@
+{
+  "name": "zetta-device-data-kinesis",
+  "version": "1.0.0",
+  "description": "kinesis collector for zetta device data",
+  "main": "collection-kinesis.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Mitch Fierro @f1erro",
+  "license": "ISC",
+  "dependencies": {
+    "aws-sdk": "^2.5.3",
+    "rx": "^4.1.0",
+    "util": "^0.10.3",
+    "zetta-device-data-collection": "^0.9.0"
+  }
+}
